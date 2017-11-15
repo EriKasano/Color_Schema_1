@@ -1,0 +1,135 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/secondary</item>
+    </style>
+
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/text_on_primary</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="ColorSchemeSample" parent="AppTheme" >
+        <item name="colorPrimary">@color/secondary</item>
+    </style>
+
+    <style name="ColorScheme2" parent="ColorSchemeSample" />
+
+    <style name="ColorSchema1" parent="ColorScheme2" />
+
+    <style name="ColorSchema2" parent="AppTheme" />
+
+    <style name="ColorSchema3" parent="ColorSchema2" />
+
+    <style name="ColorSchema4" parent="ColorSchema3" />
+
+    <style name="ColorSchema5" parent="ColorSchema4" />
+
+    <style name="ColorSchema6" parent="ColorSchema5" />
+
+    <style name="ColorShema7" parent="ColorSchema4" />
+
+    <style name="ColorShema8" parent="ColorShema7" />
+
+    <style name="ColorSchema9" parent="ColorShema8" />
+
+    <style name="ColorSchema10" parent="ColorSchema9" />
+
+    <style name="ColorSchema11" parent="AppTheme" />
+
+    <style name="ColorSchema12" parent="ColorSchema11" />
+
+    <style name="ColorSchema13" parent="ColorSchema12" />
+
+    <style name="ColorSchema14" parent="ColorSchema13" />
+
+    <style name="color_scheme2_1" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/text_on_primary</item>
+    </style>
+
+    <style name="ColorSchema2_2" parent="color_scheme2_1" >
+        <item name="colorPrimary">@color/content_bg</item>
+        <item name="colorPrimaryDark">@color/primary</item>
+    </style>
+
+    <style name="color_schema2_3" parent="color_scheme2_1" >
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/secondary</item>
+    </style>
+
+    <style name="color_schema2_4" parent="color_schema2_3" >
+        <item name="colorPrimaryDark">@color/primary_light</item>
+        <item name="colorAccent">@color/secondary</item>
+        <item name="android:colorBackground">@color/secondary_light</item>
+    </style>
+
+    <style name="color_schema2_5" parent="color_schema2_4" >
+        <item name="colorAccent">@color/secondary</item>
+    </style>
+
+    <style name="color_schema2_6" parent="color_schema2_5" >
+        <item name="colorAccent">@color/primary_dark</item>
+        <item name="android:colorBackground">@color/secondary</item>
+    </style>
+
+    <style name="color_schema2_7" parent="color_schema2_6" >
+        <item name="colorPrimary">@color/secondary</item>
+        <item name="android:colorForeground">@color/secondary_light</item>
+    </style>
+
+    <style name="color_schema2_8" parent="color_schema2_7" >
+        <item name="colorPrimary">@color/primary</item>
+    </style>
+
+    <style name="color_schema2_9" parent="color_schema2_8" >
+        <item name="android:colorForeground">@color/parent_bg</item>
+        <item name="colorPrimary">@color/content_bg</item>
+    </style>
+
+    <style name="color_schema2_10" parent="color_schema2_9" >
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:colorForeground">@color/secondary_light</item>
+    </style>
+
+    <style name="color_schema2_11" parent="color_schema2_10" />
+
+    <style name="color_schema2_12" parent="color_schema2_11" />
+
+    <style name="color_schema2_13" parent="color_schema2_12" >
+        <item name="android:colorBackground">@color/content_bg</item>
+    </style>
+
+    <style name="color_schema2_14" parent="color_schema2_13" >
+        <item name="android:colorBackground">@color/secondary</item>
+    </style>
+
+    <style name="color_schema2_15" parent="color_schema2_14" />
+
+    <style name="color_schema2_16" parent="color_schema2_15" />
+
+    <style name="color_schema2_17" parent="color_schema2_16" />
+
+    <style name="ColorSchema15" parent="ColorSchema14" >
+        <item name="android:colorBackground">@color/text_on_secondary</item>
+    </style>
+
+    <style name="ColorSchema16" parent="ColorSchema15" >
+        <item name="android:colorBackground">@color/content_bg</item>
+    </style>
+
+    <style name="ColorSchema17" parent="ColorSchema16" >
+        <item name="android:colorBackground">@color/text_on_primary</item>
+    </style>
+
+</resources>

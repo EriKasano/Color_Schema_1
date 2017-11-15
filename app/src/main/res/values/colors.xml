@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- ColorSchema用 -->
+    <color name="primary">#ffffff</color>
+    <color name="primary_light">#e6e9f0</color>
+    <color name="primary_dark">#07889b</color>
+
+    <color name="secondary">#22a2f2</color>
+    <color name="secondary_light">#eeaa7b</color>
+    <color name="secondary_dark">#373737</color>
+
+    <color name="content_bg">#b2b2b2</color>
+    <color name="parent_bg">#dfdce3</color>
+
+    <color name="text_on_primary">#212121</color>
+    <color name="text_on_secondary">#212121</color>
+</resources>

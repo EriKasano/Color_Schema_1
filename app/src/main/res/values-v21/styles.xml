@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="color_schema2_11" parent="color_schema2_10">
+        <item name="android:navigationBarColor">@color/parent_bg</item>
+    </style>
+
+    <style name="color_schema2_12" parent="color_schema2_11">
+        <item name="android:navigationBarColor">@color/secondary_dark</item>
+    </style>
+
+    <style name="color_schema2_15" parent="color_schema2_14">
+        <item name="android:statusBarColor">@color/text_on_primary</item>
+    </style>
+
+    <style name="color_schema2_16" parent="color_schema2_15">
+        <item name="android:statusBarColor">@color/content_bg</item>
+    </style>
+
+    <style name="color_schema2_17" parent="color_schema2_16">
+        <item name="android:statusBarColor">@color/text_on_primary</item>
+    </style>
+
+    <style name="ColorSchema15" parent="ColorSchema14">
+        <item name="android:colorBackground">@color/text_on_secondary</item>
+        <item name="android:navigationBarColor">@color/text_on_primary</item>
+    </style>
+</resources>
