@@ -25,15 +25,31 @@
 
     <style name="ColorScheme2" parent="ColorSchemeSample" />
 
-    <style name="ColorSchema1" parent="ColorScheme2" />
+    <style name="ColorSchema1" parent="ColorScheme2" >
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:colorBackground">@color/text_on_secondary</item>
+        <item name="colorPrimaryDark">@color/parent_bg</item>
+    </style>
 
-    <style name="ColorSchema2" parent="AppTheme" />
+    <style name="ColorSchema2" parent="AppTheme" >
+        <item name="colorAccent">@color/secondary_dark</item>
+    </style>
 
-    <style name="ColorSchema3" parent="ColorSchema2" />
+    <style name="ColorSchema3" parent="ColorSchema2" >
+        <item name="colorAccent">@color/text_on_primary</item>
+        <item name="colorPrimaryDark">@color/text_on_secondary</item>
+    </style>
 
-    <style name="ColorSchema4" parent="ColorSchema3" />
+    <style name="ColorSchema4" parent="ColorSchema3" >
+        <item name="colorPrimaryDark">@color/primary_light</item>
+        <item name="colorAccent">@color/primary_dark</item>
+        <item name="android:colorBackground">@color/secondary</item>
+        <item name="android:colorForeground">@color/text_on_secondary</item>
+    </style>
 
-    <style name="ColorSchema5" parent="ColorSchema4" />
+    <style name="ColorSchema5" parent="ColorSchema4" >
+        <item name="android:colorForeground">@color/text_on_secondary</item>
+    </style>
 
     <style name="ColorSchema6" parent="ColorSchema5" />
 
@@ -128,8 +144,6 @@
         <item name="android:colorBackground">@color/content_bg</item>
     </style>
 
-    <style name="ColorSchema17" parent="ColorSchema16" >
-        <item name="android:colorBackground">@color/text_on_primary</item>
-    </style>
+    <style name="ColorSchema17" parent="ColorSchema16" />
 
 </resources>

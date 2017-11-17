@@ -5,17 +5,17 @@
     <color name="colorAccent">#FF4081</color>
 
     <!-- ColorSchema用 -->
-    <color name="primary">#ffffff</color>
-    <color name="primary_light">#e6e9f0</color>
-    <color name="primary_dark">#07889b</color>
+    <color name="primary">#ac98f5fc</color>
+    <color name="primary_light">#98dafc</color>
+    <color name="primary_dark">#312c3d</color>
 
-    <color name="secondary">#22a2f2</color>
-    <color name="secondary_light">#eeaa7b</color>
-    <color name="secondary_dark">#373737</color>
+    <color name="secondary">#adf29a0c</color>
+    <color name="secondary_light">#b5b269</color>
+    <color name="secondary_dark">#c9c9c9</color>
 
-    <color name="content_bg">#b2b2b2</color>
-    <color name="parent_bg">#dfdce3</color>
+    <color name="content_bg">#ffffff</color>
+    <color name="parent_bg">#93f2a20c</color>
 
-    <color name="text_on_primary">#212121</color>
-    <color name="text_on_secondary">#212121</color>
+    <color name="text_on_primary">#b3c2bf</color>
+    <color name="text_on_secondary">#3b3a36</color>
 </resources>
